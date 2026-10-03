@@ -1,9 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
-html,
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
+}
+body::.nav{
+
 }
 ::selection {
   background: #ffd15b;
